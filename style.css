@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: rgba(237, 184, 139, 1);
+}
+header a {
+  float: right;
+}
+.content {
+  border: 5px solid rgba(23, 190, 187, 1);
+}
+.content:hover {
+  cursor: pointer;
+}
