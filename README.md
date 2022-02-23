@@ -1,6 +1,6 @@
 # My personal portfolio
 
-link to live demo: [My personal portfolio (not live yet)]()
+link to live demo: [My personal portfolio](https://jacksonnorris.github.io/bc-advanced-css/)
 
 ## What it does
 
