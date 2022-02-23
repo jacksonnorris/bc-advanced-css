@@ -38,7 +38,7 @@ h2 {
 .heroImage {
   height: 10em;
   width: 100%;
-  background-image: url(/assets/code-screen.jpg);
+  background-image: url(./assets/code-screen.jpg);
   text-align-last: right;
 }
 .heroImage h1 {
@@ -145,10 +145,5 @@ i {
 @media (max-width: 1354px) {
   .content {
     width: 77em;
-  }
-}
-@media (max-width: 686px) {
-  .content {
-    /* width: inherit; */
   }
 }
