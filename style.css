@@ -4,13 +4,13 @@
   scroll-behavior: smooth;
 }
 header {
-  background-color: rgba(237, 184, 139, 1);
+  background-color: aliceblue;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-bottom: 4px rgb(10, 0, 68) solid;
 }
 header a {
-  /* float: right; */
   padding: 0.5em;
   margin: 2em 0.5em 0 0;
   font-size: 1.3em;
@@ -37,11 +37,6 @@ h2 {
 .heroImage {
   height: 10em;
   width: 100%;
-  /* background-image: -webkit-linear-gradient(
-    left,
-    rgb(46, 40, 42),
-    rgb(23, 190, 187)
-  ); */
   background-image: url(/assets/code-screen.jpg);
   text-align-last: right;
 }
@@ -123,6 +118,11 @@ footer {
 }
 @media (max-width: 1340px) {
   .content {
-    width: 77em;
+    /* width: 77em; */
+  }
+}
+@media (max-width: 686px) {
+  .content {
+    /* width: inherit; */
   }
 }
