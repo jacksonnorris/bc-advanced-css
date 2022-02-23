@@ -16,6 +16,6 @@ Page links to real projects created by me
 
 ## How it Looks
 
-The following image shows how the page currently looks (no image taken yet)
+The following image shows how the page currently looks
 
-![Update with information about image]()
+![Portfolio with a header saying 'Jack Norris'. Content includes an about me section with a description, a my work section, and a contact me section](./assets/pageLayout.png)
