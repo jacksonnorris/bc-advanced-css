@@ -69,6 +69,7 @@ section a {
   transition: all 350ms ease;
   overflow: hidden;
   position: relative;
+  height: 15em;
 }
 .content:hover {
   cursor: pointer;
@@ -76,6 +77,9 @@ section a {
 }
 .fullWidth {
   width: 77em;
+}
+.content.fullWidth {
+  height: 30em;
 }
 .contentImg {
   opacity: 0.6;
@@ -94,6 +98,7 @@ section a {
   width: 30%;
   background-color: rgba(23, 190, 187, 1);
   margin-left: -2em;
+  margin-top: -2em;
   padding: 0.5em;
   width: fit-content;
 }
