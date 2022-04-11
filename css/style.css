@@ -4,6 +4,7 @@
   scroll-behavior: smooth;
   font-family: Arial, Helvetica, sans-serif;
 }
+
 header {
   background-color: aliceblue;
   display: flex;
@@ -11,6 +12,7 @@ header {
   align-items: center;
   border-bottom: 4px rgb(10, 0, 68) solid;
 }
+
 header a {
   padding: 0.5em;
   margin: 2em 0.5em 0 0;
@@ -21,43 +23,52 @@ header a {
   color: rgb(46, 40, 42);
   transition: all 250ms ease;
 }
+
 header a:hover,
 header a:focus {
   transform: translate(-8px -8px);
   color: rgb(23, 190, 187);
   box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25);
 }
+
 header img {
   height: 100px;
   width: 100px;
   margin-left: 50px;
 }
+
 h2 {
   display: block;
 }
+
 .heroImage {
   height: 10em;
   width: 100%;
-  background-image: url(./assets/code-screen.jpg);
+  background-image: url(../assets/code-screen.jpg);
   text-align-last: right;
 }
+
 .heroImage h1 {
   margin: 1em 1em;
   font-size: 3em;
   color: rgb(23, 190, 187);
 }
+
 section {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
+
 section a {
   text-decoration: none;
   color: black;
 }
+
 .aboutMe {
   margin: 1em;
 }
+
 .aboutMe p,
 .contactMe p {
   background-color: aliceblue;
@@ -67,9 +78,11 @@ section a {
   text-align: center;
   width: fit-content;
 }
+
 .myWork {
   margin-left: 1em;
 }
+
 .content {
   border: 0.4em solid rgba(23, 190, 187, 1);
   margin: 1em;
@@ -84,16 +97,20 @@ section a {
   position: relative;
   height: 15em;
 }
+
 .content:hover {
   cursor: pointer;
   background-color: rgba(0, 0, 0, 0);
 }
+
 .fullWidth {
   width: 77em;
 }
+
 .content.fullWidth {
   height: 30em;
 }
+
 .contentImg {
   opacity: 0.6;
   position: absolute;
@@ -103,12 +120,15 @@ section a {
   height: auto;
   transition: all 350ms ease;
 }
+
 .contentImg img {
   max-width: -webkit-fill-available;
 }
+
 .contentImg:hover {
   opacity: 1;
 }
+
 .contentInfo {
   position: relative;
   width: 30%;
@@ -118,18 +138,22 @@ section a {
   padding: 0.5em;
   width: fit-content;
 }
+
 .contactMe {
   margin-left: 1em;
 }
+
 .contactMe span {
   padding: 0 10px 0 0;
 }
+
 footer {
   margin-top: 20px;
   height: 4em;
   background-color: rgb(10, 0, 68);
   color: white;
 }
+
 footer span {
   font-style: italic;
   font-weight: lighter;
@@ -139,9 +163,11 @@ footer span {
   height: inherit;
   justify-content: center;
 }
+
 i {
   padding-right: 5px;
 }
+
 @media (max-width: 1354px) {
   .content {
     width: 77em;
