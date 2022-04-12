@@ -69,6 +69,23 @@ section a {
   margin: 1em;
 }
 
+.aboutMeWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.aboutMeWrapper img {
+  max-width: 20%;
+  border: 4px rgb(10, 0, 68) solid;
+  margin-top: 10px;
+  justify-content: center;
+}
+
+.aboutMeWrapper p {
+  max-width: 70%;
+}
+
 .aboutMe p,
 .contactMe p {
   background-color: aliceblue;
@@ -171,5 +188,26 @@ i {
 @media (max-width: 1354px) {
   .content {
     width: 77em;
+  }
+}
+
+@media (max-width: 1200px) {
+  .aboutMeWrapper img {
+    max-width: 30%;
+  }
+}
+
+@media (max-width: 600px) {
+  .headerImage {
+    display: none;
+  }
+
+  header {
+    height: 104px;
+    place-content: center;
+  }
+
+  .aboutMeWrapper img {
+    max-width: 40%;
   }
 }
